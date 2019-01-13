@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../developersbub-backend/src/main/kotlin/com/developers/developersbubbackend/controllers/DeveloperController.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../developersbub-backend/src/main/kotlin/com/developers/developersbubbackend/controllers/RecruiterController.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../developersbub-backend/src/main/kotlin/com/developers/developersbubbackend/model/Company.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../developersbub-backend/src/main/kotlin/com/developers/developersbubbackend/model/Developer.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../developersbub-backend/src/main/kotlin/com/developers/developersbubbackend/model/Recruiter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../developersbub-backend/src/main/kotlin/com/developers/developersbubbackend/repositories/DeveloperRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../developersbub-backend/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
