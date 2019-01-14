@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.Transactional
 @org.springframework.stereotype.Repository
 interface RecruiterRepository : Repository<Recruiter, Long> {
 
-    @Query("SELECT DISTINCT recruiter FROM Recruiter recruiter left join fetch recruiter.companies" +
+    @Query("SELECT DISTINCT recruiter FROM Recruiter recruiter left join fetch recruiter.companiesRecruitingFor" +
             " WHERE recruiter.lastName LIKE :lastName%")
     @Transactional(readOnly = true)
     fun findByLastName(lastName: String): Collection<Recruiter>

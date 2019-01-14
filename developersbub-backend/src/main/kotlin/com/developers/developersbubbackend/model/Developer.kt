@@ -1,15 +1,25 @@
 package com.developers.developersbubbackend.model
 
-import javax.persistence.Entity
-import javax.persistence.Table
+import java.util.*
+import javax.persistence.*
+import kotlin.collections.HashSet
 
 
 @Entity
 @Table(name = "developers")
 class Developer : Person() {
 
-    val address: ArrayList<Address> = arrayListOf()
     val typeOfDeveloper = ""
     val programmingLanguages = ""
     val isEmployed: Boolean = false
+
+    @OneToOne(fetch = FetchType.LAZY)
+    val address: Address? = null
+
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "company_id")
+    val companyEmployedTo: Company? = null
+
+    @OneToMany(cascade = [CascadeType.ALL], fetch = FetchType.LAZY)
+    val recruiters: MutableSet<Recruiter> = HashSet()
 }
