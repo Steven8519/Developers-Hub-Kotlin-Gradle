@@ -5,10 +5,10 @@ import javax.persistence.MappedSuperclass
 @MappedSuperclass
 open class Person : BaseEntity() {
 
-    val firstName = ""
-    val lastName = ""
-    val age = 0
-    val email = ""
-    val phoneNumber = ""
-    val jobTitle = ""
+    var firstName = ""
+    var lastName = ""
+    var age = ""
+    var email = ""
+    var phoneNumber = ""
+    var jobTitle = ""
 }

@@ -10,13 +10,13 @@ class Recruiter : Person() {
 
     @OneToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "company_id")
-    val companyWorkFor: Company? = null
+    var companyWorkFor: Company? = null
 
     @OneToMany(cascade = [CascadeType.ALL], mappedBy = "recruiter", fetch = FetchType.EAGER)
-    val companiesRecruitingFor: MutableSet<Company> = TreeSet()
+    var companiesRecruitingFor: MutableSet<Company> = TreeSet()
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "developer_id")
-    val developersContacted: Developer? = null
+    var developersContacted: Developer? = null
 
 }

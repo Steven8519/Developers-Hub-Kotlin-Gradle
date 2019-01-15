@@ -7,5 +7,5 @@ import javax.persistence.*
 class CompanyOwner: BaseEntity() {
 
     @OneToMany(cascade = [CascadeType.ALL], fetch = FetchType.LAZY)
-    val companies: MutableSet<Company> = HashSet()
+    var companies: MutableSet<Company> = HashSet()
 }

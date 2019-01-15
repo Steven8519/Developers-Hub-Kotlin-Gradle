@@ -5,16 +5,24 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {DeveloperComponent} from './components/developer/developer.component';
 import {RecruiterComponent} from './components/recruiter/recruiter.component';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {DeveloperlistComponent} from './components/developerlist/developerlist.component';
+import {HttpClientModule} from "@angular/common/http";
+import {HomeComponent} from './components/home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DeveloperComponent,
-    RecruiterComponent
+    RecruiterComponent,
+    DeveloperlistComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -7,11 +7,11 @@ import javax.persistence.OneToOne
 
 @Entity
 class Address : BaseEntity() {
-        val address1: String = ""
-        val address2: String = ""
-        val city: String = ""
-        val state: String = ""
-        val zipCode: String = ""
+        var address1: String = ""
+        var address2: String = ""
+        var city: String = ""
+        var state: String = ""
+        var zipCode: String = ""
 
         @OneToOne(fetch = FetchType.LAZY)
         @JoinColumn(name = "developer_id")

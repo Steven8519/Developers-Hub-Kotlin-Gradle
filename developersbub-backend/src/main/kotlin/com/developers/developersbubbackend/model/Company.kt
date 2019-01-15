@@ -7,25 +7,25 @@ import kotlin.collections.HashSet
 @Table(name = "companies")
 class Company : BaseEntity() {
 
-    val companyName = ""
-    val companyFunction = ""
-    val yearFounded = ""
-    val NumberOfEmployees = ""
+    var companyName = ""
+    var companyFunction = ""
+    var yearFounded = ""
+    var NumberOfEmployees = ""
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "company_owner_id")
-    val companyOwners: CompanyOwner? = null
+    var companyOwners: CompanyOwner? = null
 
     @OneToMany(cascade = [CascadeType.ALL], fetch = FetchType.LAZY)
-    val address: MutableSet<Address> = HashSet()
+    var address: MutableSet<Address> = HashSet()
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "recruiter_id")
-    val recruiter: Recruiter? = null
+    var recruiter: Recruiter? = null
 
     @OneToOne
-    val recruitingCompany: Recruiter? = null
+    var recruitingCompany: Recruiter? = null
 
     @OneToMany(cascade = [CascadeType.ALL], fetch = FetchType.EAGER)
-    private val developers: MutableSet<Developer> = HashSet()
+    var developers: MutableSet<Developer> = HashSet()
 }

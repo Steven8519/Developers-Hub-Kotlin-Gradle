@@ -1,6 +1,5 @@
 package com.developers.developersbubbackend.model
 
-import java.util.*
 import javax.persistence.*
 import kotlin.collections.HashSet
 
@@ -9,17 +8,17 @@ import kotlin.collections.HashSet
 @Table(name = "developers")
 class Developer : Person() {
 
-    val typeOfDeveloper = ""
-    val programmingLanguages = ""
-    val isEmployed: Boolean = false
+    var typeOfDeveloper = ""
+    var programmingLanguages = ""
+    var isEmployed: Boolean = false
 
     @OneToOne(fetch = FetchType.LAZY)
-    val address: Address? = null
+    var address: Address? = null
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "company_id")
-    val companyEmployedTo: Company? = null
+    var companyEmployedTo: Company? = null
 
     @OneToMany(cascade = [CascadeType.ALL], fetch = FetchType.LAZY)
-    val recruiters: MutableSet<Recruiter> = HashSet()
+    var recruiters: MutableSet<Recruiter> = HashSet()
 }

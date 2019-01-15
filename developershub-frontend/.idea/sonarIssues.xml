@@ -18,12 +18,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../developersbub-backend/src/main/kotlin/com/developers/developersbubbackend/model/Address.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../developersbub-backend/src/main/kotlin/com/developers/developersbubbackend/model/Company.kt">
           <value>
             <set />
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/../developersbub-backend/src/main/kotlin/com/developers/developersbubbackend/model/Developer.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../developersbub-backend/src/main/kotlin/com/developers/developersbubbackend/model/Person.kt">
           <value>
             <set />
           </value>
@@ -38,7 +48,77 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../developersbub-backend/src/main/kotlin/com/developers/developersbubbackend/repositories/RecruiterRepository.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../developersbub-backend/src/main/resources/application.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/developers/src/app/app-routing.module.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/developers/src/app/app.component.html">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/developers/src/app/app.module.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/developers/src/app/model/developer.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/developers/src/app/service/developer.service.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../DevelopersHub/backend/developer-hub/src/main/java/com/developers/developerhub/model/Address.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../DevelopersHub/backend/developer-hub/src/main/java/com/developers/developerhub/model/BaseEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../DevelopersHub/backend/developer-hub/src/main/java/com/developers/developerhub/model/Company.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../DevelopersHub/backend/developer-hub/src/main/java/com/developers/developerhub/model/CompanyOwner.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../DevelopersHub/backend/developer-hub/src/main/java/com/developers/developerhub/model/Developer.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../DevelopersHub/backend/developer-hub/src/main/java/com/developers/developerhub/model/Person.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../DevelopersHub/backend/developer-hub/src/main/java/com/developers/developerhub/model/Recruiter.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../DevelopersHub/backend/developer-hub/src/main/resources/application.properties">
           <value>
             <set />
           </value>
