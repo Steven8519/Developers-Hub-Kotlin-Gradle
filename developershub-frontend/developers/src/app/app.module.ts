@@ -9,6 +9,9 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {DeveloperlistComponent} from './components/developerlist/developerlist.component';
 import {HttpClientModule} from "@angular/common/http";
 import {HomeComponent} from './components/home/home.component';
+import {RecruiterDetailsComponent} from './components/recruiter-details/recruiter-details.component';
+import {DeveloperDetailsComponent} from './components/developer-details/developer-details/developer-details.component';
+import {AddDeveloperComponent} from './components/add-developer/add-developer/add-developer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import {HomeComponent} from './components/home/home.component';
     DeveloperComponent,
     RecruiterComponent,
     DeveloperlistComponent,
-    HomeComponent
+    HomeComponent,
+    RecruiterDetailsComponent,
+    DeveloperDetailsComponent,
+    AddDeveloperComponent,
   ],
   imports: [
     BrowserModule,

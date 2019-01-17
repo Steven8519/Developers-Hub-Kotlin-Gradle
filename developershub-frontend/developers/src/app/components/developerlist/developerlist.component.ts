@@ -1,4 +1,7 @@
 import {Component, OnInit} from '@angular/core';
+import {Observable} from "rxjs";
+import {Developer} from "../../model/developer";
+import {DeveloperService} from "../../service/developer.service";
 
 @Component({
   selector: 'app-developerlist',
@@ -7,9 +10,15 @@ import {Component, OnInit} from '@angular/core';
 })
 export class DeveloperlistComponent implements OnInit {
 
-  constructor() { }
+  developers: Observable<Developer[]>;
+
+  constructor(private developerService: DeveloperService) { }
 
   ngOnInit() {
+  }
+
+  reloadData() {
+    this.developers = this.developerService.getDeveloperList();
   }
 
 }

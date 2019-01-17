@@ -73,6 +73,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/developers/src/app/components/developer-details/developer-details/developer-details.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/developers/src/app/components/developerlist/developerlist.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/developers/src/app/components/recruiter-details/recruiter-details.component.ts">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/developers/src/app/model/developer.ts">
           <value>
             <set />
